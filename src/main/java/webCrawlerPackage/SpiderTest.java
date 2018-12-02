@@ -6,7 +6,7 @@ public class SpiderTest {
 
 		Spider spider = new Spider();
 		spider.search("http://amazon.com/", "Echo");
-		
+
 	}
 
 }
