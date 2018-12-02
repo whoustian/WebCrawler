@@ -1,4 +1,4 @@
-package webCrawlerPackage;
+package WebCrawlerPackage;
 
 import java.util.HashSet;
 import java.util.LinkedList;

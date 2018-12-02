@@ -1,4 +1,4 @@
-package webCrawlerPackage;
+package WebCrawlerPackage;
 
 public class SpiderTest {
 
