@@ -31,6 +31,10 @@ public class Spider {
 				currentUrl = this.nextUrl();
 			}
 
+			if (currentUrl.isEmpty() || currentUrl.startsWith("mail")) {
+				continue;
+			}
+
 			leg.crawl(currentUrl);
 
 			boolean success = leg.searchForWord(searchWord);
